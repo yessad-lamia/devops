@@ -3,6 +3,7 @@ name: Spring Boot CI + Docker Deploy
 on:
   push:
     branches: [ master ]
+  workflow_dispatch:  # permet de lancer manuellement
 
 jobs:
   build-and-deploy:
